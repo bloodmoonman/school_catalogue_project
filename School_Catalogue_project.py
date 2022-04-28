@@ -55,7 +55,7 @@ class HighSchool(School):
     return parentRepr + "The sports teams are {sportsTeams}".format(sportsTeams = self.sportsTeams)
 
 
-c = HighSchool("Codecademy High", 500, ["Tennis", "Basketball"])
+c = HighSchool("Schön High", 500, ["Tennis", "Basketball"])
 print(c.getsportsTeams())
 print(c)
 
